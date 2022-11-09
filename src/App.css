@@ -1,20 +1,20 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
+  background-color: green;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,5 +34,200 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.navbarStyle{
+    background-color: #A19999;
+}
+
+.nav_itemStyle{
+  position: relative;
+  float: right;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #393E39;
+}
+
+.tableCenter {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* border: #61dafb; */
+  border-radius: 20px 20px 0px 0px;
+  /* border-width: 3px;
+  border: 6px; */
+  border: 3px solid black;
+  border-collapse: separate;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th{
+  /* color: #878200; */
+  border-radius: 20px 20px 0px 0px;
+}
+
+td{
+  font: Bitstream Cyberbit;
+}
+
+
+hr{
+  height: 2px;
+  border-width: 0;
+  color: white;
+  background-color: white;
+  /* width: auto; */
+  /* margin-left: auto; */
+  margin-right: auto;
+  display: flex;
+}
+
+/* .btn-my-styleBQ{
+  left: 100px;
+  top: 10px;
+  width: 155px;
+} */
+
+.numericDisp {
+  font-size: 10px;
+  color: red;
+  /* text-align: center; */
+  /* font-family: "Bitstream Cyberbit"; */
+}
+
+.formDiv{
+  /* background-color: black; */
+  /* text-align: center; */
+  display: flow-root;
+  align-content: center;
+  width: 85%;
+  /* border: 1px solid black; */
+}
+
+.slct{
+  background-color: black;
+  /* display: contents; */
+  align-content: center;
+  color: white;
+  /* float: right; */
+  position: absolute;
+  /* right: 100px; */
+  left: 680px;
+  /* left: 45%; */
+  /* top: 4px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  width: 70px;
+}
+
+.slct2{
+  left: 845px;
+  /* left: 58%; */
+}
+
+/* .vl {
+  border-left: 2px solid white;
+  height: 500px;
+  position: relative;
+  float: inherit;
+} */
+
+
+/* .pdlft_1{
+  left: px;
+} */
+
+/* input{
+  align-items: flex-end;
+  text-align: right;
+} */
+
+.brdr {
+  border: 1px solid black;
+}
+
+.inpt-btn{
+  float: right;
+}
+
+.qryText {
+  color: beige;
+  padding-top: 4px;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.lblText {
+  color: white;
+  /* color: beige; */
+  padding-top: 4px;
+}
+
+.slct-opt-lft1{
+  position: absolute;
+  left: 592px;
+  /* left: 39.4%; */
+}
+
+.slct-opt-lft2{
+  position: absolute;
+  left: 775px;
+  /* left: 53.4%; */
+}
+
+.clr-btn{
+  float: right;
+  position: sticky;
+  top: 13px;
+}
+
+
+
+@media (min-width: 2500px){
+  .slct{
+    left: 1200px;
+  }
+}
+
+@media (max-width: 1024px){
+  .slct{
+    left: 450px;
+  }
+}
+
+@media (max-width: 768px){
+  .slct{
+    left: 450px;
+  }
+  .formDiv{
+    width: 85%;
+  }
+}
+
+@media (max-width: 425px){
+  .slct{
+    left: 400px;
+  }
+  .formDiv{
+    width: 140%;
+  }
+}
+
+
+@media (max-width: 320px){
+  .slct{
+    left: 410px;
+  }
+  .formDiv{
+    width: 200%;
   }
 }
